@@ -16,9 +16,9 @@ class color:
    END = '\033[0m'
 
 print('---------------------------------------------------------------------------------------------------------------------')
-print(color.DARKCYAN + "Welcome to Password Generator!" + color.END)
+print(color.DARKCYAN + "Welcome to the Password Generator!" + color.END)
 print()
-print(color.YELLOW + color.BOLD + "WARNING!!!! Despite being a random password generator, no password is totally safe." + color.END)
+print(color.YELLOW + color.BOLD + "Despite being a random password generator, no password is totally safe." + color.END)
 print()
 while True:
     min_char = int(input('Minimum number of characters: '))
